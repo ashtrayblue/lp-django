@@ -1,7 +1,3 @@
-FROM ubuntu:xenial
-
-RUN apt-get -yqq update
-RUN apt-get -yqq install python-pip
-RUN apt-get -yqq install python-dev
+FROM python:2.7.17-buster
 
 COPY bin /solum/bin

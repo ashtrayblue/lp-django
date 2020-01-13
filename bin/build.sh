@@ -6,4 +6,5 @@ pip help
 
 # Install dependencies from app requirements file
 cd /app
+pip install --upgrade pip
 pip install django

@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial
 
 RUN apt-get -yqq update
 RUN apt-get -yqq install python-pip
